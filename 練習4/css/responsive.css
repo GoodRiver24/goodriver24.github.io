@@ -1,0 +1,56 @@
+
+/*スマートフォン向けレイアウト*/
+
+@media screen and (max-width: 900px) {
+
+
+
+
+
+
+
+  /*company*/
+  dl {
+    flex-direction: column;
+  }
+  dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
+  dd {
+    width: 100%;
+    padding-top: 5px;
+  }
+  .map {
+    width: 100%;
+  }
+
+  /*products*/
+  .list li {
+    width: 47%;
+  }
+
+
+  /*item*/
+  #item {
+    flex-direction: column;
+  }
+  #item .item-text {
+    width: 100%;
+  }
+  
+  #item .item-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+
+
+/*footer*/
+
+
+
+
+  
+}
